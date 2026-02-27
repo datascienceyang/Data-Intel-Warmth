@@ -1,27 +1,4 @@
-<style>
-/* 整体字号放大，适配手机（核心） */
-body {
-  font-size: 32px !important; /* 正文默认20px，比默认大30%，手机清晰不拥挤 */
-  line-height: 1.8 !important; /* 行距放宽，手机阅读不费力 */
-  max-width: 1000px !important; /* 限制最大宽度，避免手机端过宽 */
-  margin: 0 auto !important; /* 整体居中，适配公众号排版 */
-}
 
-/* 标题字号同步放大，保持层级 */
-h1 { font-size: 52px !important; }
-h2 { font-size: 48px !important; }
-h3 { font-size: 44px !important; }
-h4 { font-size: 40px !important; }
-/* 引用、代码块字号适配 */
-blockquote { font-size: 32px !important; }
-code { font-size: 30px !important; }
-/* 保证图片缩放、居中生效（兼容你之前的设置） */
-img {
-  display: block !important;
-  margin: 0 auto !important;
-  
-}
-</style>
 
 
 # Dubin's Car Trajectory Optimization 
@@ -112,4 +89,5 @@ J(\vec{x},\vec{u},\vec{p}) = \phi(\vec{x}(1),\vec{p}) + \int_0^1 \Gamma(\vec{x}(
 ***
 最后，作者 Danylo Malyuta 似乎任职于 SpaceX，论文*Convex Optimization for Trajectory Generation* 研究的也并非小汽车，而是航天器着陆的轨迹优化问题（太酷了！）：
 ![alt text](微信图片_20260217141006_84_1289.png)
+
 
